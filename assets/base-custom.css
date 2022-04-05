@@ -1,0 +1,44 @@
+.text-body {
+  font-family: 'Roboto','Noto Sans JP',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.h0,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  font-family: 'Roboto','Noto Sans JP',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+h4,
+.h4 {
+  font-family: 'Roboto','Noto Sans JP',sans-serif;
+  font-style: normal;
+}
+
+.link,
+.customer a {
+  font-family: 'Roboto','Noto Sans JP',sans-serif;
+}
+
+.select__select {
+  font-family: 'Roboto','Noto Sans JP',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.text-area {
+　font-family: 'Roboto','Noto Sans JP',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}

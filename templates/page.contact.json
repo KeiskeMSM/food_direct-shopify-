@@ -1,0 +1,46 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1648877807b841718e": {
+      "type": "rich-text",
+      "blocks": {
+        "1648877807e1f3b206-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>必要事項をご入力の上、送信ボタンを押してください。<\/p><p>３営業日以内に担当者よりご連絡させていただきます。<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1648877807e1f3b206-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1648877807b841718e",
+    "form"
+  ]
+}
