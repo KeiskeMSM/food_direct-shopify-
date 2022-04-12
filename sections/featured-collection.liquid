@@ -49,7 +49,7 @@
     {%- endunless -%}
   
     <slider-component class="slider-mobile-gutter">
-      <ul id="Slider-{{ section.id }}" class="grid product-grid contains-card{% if settings.card_style == 'standard' %} contains-card--standard{% endif %}{% if section.settings.columns_desktop == 1 %} grid--full-width{% else %} grid--{{ section.settings.columns_desktop }}-col-desktop{% endif %}{% if section.settings.collection == blank %} grid--2-col-tablet-down{% else %} grid--{{ section.settings.columns_mobile }}-col-tablet-down{% endif %}{% if show_mobile_slider %} slider slider--tablet grid--peek{% endif %}" role="list">
+      <ul id="Slider-{{ section.id }}" class="grid product-grid contains-card{% if settings.card_style == 'standard' %} contains-card--standard{% endif %}{% if section.settings.columns_desktop == 1 %} grid--full-width{% else %} grid--{{ section.settings.columns_desktop }}-col-desktop{% endif %}{% if section.settings.collection == blank %} grid--2-col-tablet-down{% else %} grid--{{ section.settings.columns_mobile }}-col-tablet-down{% endif %}{% if show_mobile_slider %} slider slider--tablet grid--peek{% endif %}{%- comment -%}"ランキングを表示する"にチェックが入っていれば"ranking"を付与{%- endcomment -%}{% if section.settings.show_ranking %} ranking{% endif %}" role="list">
         {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
           <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="grid__item{% if show_mobile_slider %} slider__slide{% endif %}">
             {% render 'card-product',
@@ -220,6 +220,12 @@
       "id": "show_vendor",
       "default": false,
       "label": "t:sections.featured-collection.settings.show_vendor.label"
+    },
+		{
+      "type": "checkbox",
+      "id": "show_ranking",
+      "default": false,
+      "label": "t:sections.featured-collection.settings.show_ranking.label"
     },
     {
       "type": "checkbox",

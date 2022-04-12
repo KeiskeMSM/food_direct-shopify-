@@ -50,7 +50,7 @@
 }
 
 .customer .field:first-of-type {
-  margin-top: 0;
+  /* margin-top: 0; */
 }
 
 /* Customer Table */
@@ -730,9 +730,9 @@ li[data-address] > h2 {
     margin-right: 2rem;
   }
 
-  .addresses form > div:nth-of-type(2) {
+  /* .addresses form > div:nth-of-type(2) {
     margin-top: 0;
-  }
+  } */
 
   .addresses form > div:nth-of-type(1),
   .addresses form > div:nth-of-type(2) {

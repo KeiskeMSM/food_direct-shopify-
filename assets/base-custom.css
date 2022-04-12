@@ -43,3 +43,26 @@ h4,
   font-weight: 400;
 }
 
+/* ランキング表示 */
+.ranking .grid__item::before {
+	background-color: #000;
+	color: #fff;
+	padding: 0 10px;
+	font-size: 2rem;
+	border-radius: 2rem;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.ranking .grid__item:nth-child(1)::before {
+	content: "1位";
+}
+.ranking .grid__item:nth-child(2)::before {
+	content: "2位";
+}
+.ranking .grid__item:nth-child(3)::before {
+	content: "3位";
+}
+.ranking .grid__item:nth-child(4)::before {
+	content: "4位";
+}

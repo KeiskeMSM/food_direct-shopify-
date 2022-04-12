@@ -113,8 +113,48 @@
         {{ form.errors.translated_fields['password'] | capitalize }} {{ form.errors.messages['password'] }}.
       </span>
     {%- endif -%}
-    <button>
+		<div class="field">     
+      <input
+        type="password"
+        id="RegisterForm-password-confirm"
+        name="customer[password_confirmation]"
+        aria-required="true"
+        {% if form.errors contains 'password' %}
+          aria-invalid="true"
+          aria-describedby="RegisterForm-password-error"
+        {% endif %}
+        placeholder="パスワード確認"
+      >
+      <label for="RegisterForm-password-confirm">
+        パスワード確認
+      </label>
+    </div>
+    <p class="js-confirm-error"></p>
+    {%- if form.errors contains 'password' -%}
+      <span id="RegisterForm-password-error" class="form__message form-error">
+        {{ form.errors.translated_fields['password'] | capitalize }} {{ form.errors.messages['password'] }}
+      </span>
+    {%- endif -%}
+    
+    <p id="output-message" class="form__message form-error"></p>
+    
+    <div class="customer-birthday">
+      <p>生年月日</p>
+      <ul class="grid grid--3-col">
+        <li class="field grid__item"><select id="year" name="customer[note][Year]"><option value="0">年</option></select></li>
+        <li class="field grid__item"><select id="month" name="customer[tags][Month]"><option value="0">月</option></select></li>
+        <li class="field grid__item"><select id="day" name="customer[note][Day]"><option value="0">日</option></select></li>
+      </ul> 
+    </div>    
+    
+    <div class="customer-gender">
+      <p>性別</p>
+      <input type="radio" name="customer[tags][性別]" value="男性" id="male">男性
+      <input type="radio" name="customer[tags][性別]" value="女性" id="female">女性
+      <input type="radio" name="customer[tags][性別]" value="その他" id="others">その他
+    </div>
+		<button onclick="return Validate()">
       {{ 'customer.register.submit' | t }}
-    </button>
+		</button>
   {%- endform -%}
 </div>
