@@ -45,7 +45,7 @@ h4,
 
 /* ランキング表示 */
 .ranking .grid__item::before {
-	background-color: #000;
+	background-color: #51A4AC;
 	color: #fff;
 	padding: 0 10px;
 	font-size: 2rem;
@@ -65,4 +65,9 @@ h4,
 }
 .ranking .grid__item:nth-child(4)::before {
 	content: "4位";
+}
+
+/* 年齢確認チェックボックス調整 */
+.cart__check {
+	margin-bottom: 10px;
 }

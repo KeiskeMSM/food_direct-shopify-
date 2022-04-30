@@ -1,0 +1,545 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "送料について",
+            "icon": "truck",
+            "content": "<p>【通常】800円<\/p><p>【北海道・沖縄】1,000円<\/p><p><strong>税込8,800円以上のご購入で送料無料<\/strong><\/p>",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "6c011d46-7f41-4764-93c7-3f9719f7d727": {
+          "type": "rating",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "caption",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "collapsible-row-1",
+        "share",
+        "6c011d46-7f41-4764-93c7-3f9719f7d727"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "stacked",
+        "media_size": "large",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "1651203067269b36c8": {
+      "type": "image-with-text",
+      "blocks": {
+        "1651203067445933fe-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>一日の要となる朝食。栄養満点のフルーツを食べれば今日の仕事もバッチリ！<\/p><p>でも忙しい朝は、必要なものだけで済ませてしまう方も多いはず。朝食抜きにしてしまうなんて方もいらっしゃったり…<\/p><p>ちゃんと食べようと、買い物に行っても意外と重くてかさばりがちです。丸い形状ものも多いので、デッドスペースも発生します。<\/p><p>また、季節によって一番美味しいものが変わるのでそれらを把握しておくのも大変です。季節外れの商品を知らず知らずのうちに飼っていたなんてことも…<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1651203067445933fe-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Instagram_post_-_13.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1651203089f6afbb5d": {
+      "type": "image-with-text",
+      "blocks": {
+        "daccdf69-8a96-4cc6-aa56-0fadeb84ddbf": {
+          "type": "heading",
+          "settings": {
+            "heading": "そんなあなたに！",
+            "heading_size": "h1"
+          }
+        },
+        "1651203088b65b3e09-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>これら悩みはこの「季節のフルーツ詰め合わせ」がすべて解決してくれます！！<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "daccdf69-8a96-4cc6-aa56-0fadeb84ddbf",
+        "1651203088b65b3e09-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Instagram_post_-_14.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "165120313660aef15e": {
+      "type": "image-with-text",
+      "blocks": {
+        "12254c5c-1400-45bf-97c1-77799065f156": {
+          "type": "heading",
+          "settings": {
+            "heading": "納得の大容量",
+            "heading_size": "h1"
+          }
+        },
+        "16512031361d21b601-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>商品の容量はたっぷり大容量5kg！！<\/p><p>一般的な4人家族が一日に一回朝食として使用すると約二週間もつ量です。<\/p><p>これだけの量があれば一人暮らしの方は、1ヶ月食べ続けることも可能かも！<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "12254c5c-1400-45bf-97c1-77799065f156",
+        "16512031361d21b601-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Instagram_post_-_3.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1651203225a10f2499": {
+      "type": "image-with-text",
+      "blocks": {
+        "370cdb37-4d18-44e9-a884-a00dea6d946e": {
+          "type": "heading",
+          "settings": {
+            "heading": "忙しい朝も安心",
+            "heading_size": "h1"
+          }
+        },
+        "1651203224a94f29c4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>環境にやさしい紙パッケージに包まれている商品は、取り出しやすい量にまとめられています。<\/p><p>調理中に素早く取り出してテーブルへ！手軽に彩を添えられます。忙しい朝にちょっとだけ余裕ができるかも！<\/p><p>もし食べきれなくても大丈夫。冷蔵庫で冷やして後日食べるもよし。冷凍してお菓子作りに使うもよし。<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "370cdb37-4d18-44e9-a884-a00dea6d946e",
+        "1651203224a94f29c4-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Instagram_post_-_6.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1651203290c84116d4": {
+      "type": "image-with-text",
+      "blocks": {
+        "26e35f63-e183-4d9c-9011-6ee7eeb7ad49": {
+          "type": "heading",
+          "settings": {
+            "heading": "商品内容について",
+            "heading_size": "h1"
+          }
+        },
+        "165120328991e1d400-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>皆様が旬のフルーツを召し上がれるよう、季節によって商品内容を変更しています。<\/p><p>・春（3〜5月）<\/p><p>りんご、いちご、ブルーベリー、さくらんぼ、キウイ　など<\/p><p>・夏（6〜8月）<\/p><p>すいか、バナナ、ぶどう、パイン、もも、メロン　など<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "26e35f63-e183-4d9c-9011-6ee7eeb7ad49",
+        "165120328991e1d400-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Instagram_post_-_4.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1651203340ab8a6070": {
+      "type": "image-with-text",
+      "blocks": {
+        "1651203340d8f90ebb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><\/p><p>・秋（9〜11月）<\/p><p>なし、くり、かき、いちじく　など<\/p><p>・冬（12〜2月）<\/p><p>オレンジ、デコポン、レモン、みかん　など<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1651203340d8f90ebb-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Instagram_post_-_5.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1651203406c9660c92": {
+      "type": "image-with-text",
+      "blocks": {
+        "ab6f3522-a8dd-4d37-9e15-f9378a2254d7": {
+          "type": "heading",
+          "settings": {
+            "heading": "満足の声続々！！",
+            "heading_size": "h1"
+          }
+        },
+        "1651203406254656d0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>セットの発売以来、数多くの好評の声をいただいております！<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "ab6f3522-a8dd-4d37-9e15-f9378a2254d7",
+        "1651203406254656d0-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Instagram_post_-_7.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1651203569c0192519": {
+      "type": "image-with-text",
+      "blocks": {
+        "16512035692cc6e430-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "売上No1 & 賞受賞",
+            "heading_size": "h1"
+          }
+        },
+        "16512035692cc6e430-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>当サイトで販売を開始して以来、大人気商品となった「季節のフルーツ詰め合わせ」は5年連続売上No1となりました。<\/p><p>また、国産農作物を手頃な価格で提供している事業者として農林水産大臣省を受賞しました。<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "16512035692cc6e430-0",
+        "16512035692cc6e430-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Instagram_post_-_12.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1651203454a39332bc": {
+      "type": "image-with-text",
+      "blocks": {
+        "e631a04c-0176-4ef4-b1aa-171c8ac73f4d": {
+          "type": "heading",
+          "settings": {
+            "heading": "サイズ・重量について",
+            "heading_size": "h1"
+          }
+        },
+        "1651203454594afb52-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>商品のお届けは大きな180サイズの段ボールとなります。重量も約5kgありますので、お受け取り時は十分にご注意ください。<\/p><p>なお、当サイトで別の商品を購入された場合は、別途の発送となりますのでご注意ください。<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "e631a04c-0176-4ef4-b1aa-171c8ac73f4d",
+        "1651203454594afb52-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Instagram_post_-_8.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "blocks": {
+        "image-with-text-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "国産・安心宣言",
+            "heading_size": "h1"
+          }
+        },
+        "image-with-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Food Directで取り扱いのあるすべての商品は、すべて国内で生産・加工されたものです。<\/p><p>安全で安心な商品をお楽しみいいただけるよう、厳しい検査基準を設けております。<\/p><p>高品質な国産品がいつでも皆様の手に届くよう、生産者様並びに従業員一同、日々努力しております。<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "image-with-text-0",
+        "image-with-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Instagram_post_-_9.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1650899398ef3b9cb7": {
+      "type": "image-with-text",
+      "blocks": {
+        "1650899398eb9209bc-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "キャンセル・返品等について",
+            "heading_size": "h1"
+          }
+        },
+        "1650899398eb9209bc-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>・キャンセルは、発送前に限り可能です。<\/p><p>・返品は、ご注文品が<strong>お酒の場合、かつ開封前に限り<\/strong>ます。（商品到着後14日以内）<\/p><p>・万が一、不良品が届いた場合はお問合せフォームからご連絡ください。代替品をご用意いたします。<\/p>",
+            "text_style": "body"
+          }
+        },
+        "04b83a93-0879-44aa-ae4b-d838fd956aca": {
+          "type": "button",
+          "settings": {
+            "button_label": "詳細はこちら",
+            "button_link": "shopify:\/\/policies\/refund-policy"
+          }
+        }
+      },
+      "block_order": [
+        "1650899398eb9209bc-0",
+        "1650899398eb9209bc-1",
+        "04b83a93-0879-44aa-ae4b-d838fd956aca"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Instagram_post_-_11.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16512394251ae5c082": {
+      "type": "apps",
+      "blocks": {
+        "e83f0581-ebf2-4668-8cde-7447b00fe026": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        },
+        "33509bb4-291c-4ac9-b96b-a6a10c3ea508": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#000000",
+            "star_size": 15,
+            "text_align": "center",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews"
+          }
+        }
+      },
+      "block_order": [
+        "e83f0581-ebf2-4668-8cde-7447b00fe026",
+        "33509bb4-291c-4ac9-b96b-a6a10c3ea508"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "おすすめ",
+        "heading_size": "h2",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1651203067269b36c8",
+    "1651203089f6afbb5d",
+    "165120313660aef15e",
+    "1651203225a10f2499",
+    "1651203290c84116d4",
+    "1651203340ab8a6070",
+    "1651203406c9660c92",
+    "1651203569c0192519",
+    "1651203454a39332bc",
+    "image-with-text",
+    "1650899398ef3b9cb7",
+    "16512394251ae5c082",
+    "product-recommendations"
+  ]
+}
